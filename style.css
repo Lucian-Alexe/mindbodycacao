@@ -50,6 +50,11 @@ p {
   font-size:1.8em;
 }
 
+.logo{
+    max-height: 400px;
+    margin:0 auto;
+}
+
 .yellow-box {
   border:2px solid #f9ba46;
   border-radius:26px;
@@ -58,7 +63,7 @@ p {
 }
 
 .section-intro {
-  max-width:950px;
+  max-width:1000px;
   margin:0 auto;
 }
 
@@ -71,6 +76,7 @@ p {
   border:2px solid #1f233e;
   font-weight:bold;
   transition: all 0.5s ease;
+  font-size:0.8em;
 }
 
 .button-white:hover {
@@ -112,18 +118,18 @@ button .bi {
   transition: all 0.5s ease;
 }
 
-.accordion-header:hover {
-  background-color:rgba(255,255,255,0.1);
-  transition:all 0.6s ease;
-}
+
+
 
 .accordion-button:not(.collapsed) {
  background-color: #1f233e !important;
   }
 
-.accordion-button:not(.collapsed)::after {
-  background-image: none;
+  .accordion-button:hover {
+  background-color:rgba(255,255,255,0.1) !important;
+  transition:all 0.6s ease;
 }
+
 
 .accordion-button::after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
@@ -149,4 +155,10 @@ button .bi {
   .accordion-button {
   font-size:0.7em !important;
 }
+
+.logo{
+    max-height: 300px;
+    margin:0 auto;
+}
+
 }
