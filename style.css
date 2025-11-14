@@ -9,6 +9,7 @@ h1 {
   font-style: italic;
   color: #f9ba46 !important;
   margin-bottom:0.6em !important;
+  font-size: 3.2em;
 }
 
 h2 {
@@ -43,11 +44,29 @@ p {
   font-style: normal;
   font-size:1.4em;
   color: white;
-  line-height:1.8em;
+  line-height:1.7em;
 }
 
+
+
 .p-xl {
-  font-size:1.8em;
+  font-size:2.4em;
+}
+
+
+.background-top {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.background-top img {
+    position: relative;
+    width:100vw;
+    margin:0 auto;
+    opacity:0.4;
+    
 }
 
 .logo{
@@ -56,10 +75,14 @@ p {
 }
 
 .yellow-box {
-  border:2px solid #f9ba46;
-  border-radius:26px;
+  border:5px double #f9ba46;
+
   padding:5em 3em;
   margin:4em 0;
+}
+
+.no-border {
+    border:0;
 }
 
 .section-intro {
