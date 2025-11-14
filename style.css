@@ -174,7 +174,7 @@ button .bi {
  }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1080px) {
   .p-xl {
     font-size:1.3em;
   }
@@ -207,6 +207,11 @@ button .bi {
     bottom:0;
     margin:auto;
     height: 60px;
+}
+
+.button-white {
+  display: block;
+  margin-top:1em;
 }
 
 }
