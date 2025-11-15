@@ -214,4 +214,12 @@ button .bi {
   margin-top:1em;
 }
 
+.background-top img {
+    position: relative;
+    width: 250vw;
+    margin:0 auto;
+    opacity:0.4;
+    
+}
+
 }
