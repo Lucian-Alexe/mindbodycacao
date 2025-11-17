@@ -16,7 +16,16 @@ h2 {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   color: white !important;
-  font-size: 1.6em !important;
+  font-size: 1.8em !important;
+
+}
+
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  color: white !important;
+  font-size: 1.4em !important;
   
 }
 
@@ -51,10 +60,21 @@ strong {
   background-color: rgb(255, 255, 255,0.2);
 }
 
+a {
+  color: #f9ba46 ;
+}
+
+a:hover {
+  color: white;
+}
 
 
 .p-xl {
   font-size:2.4em;
+}
+
+.text-small {
+  font-size:1em;
 }
 
 
